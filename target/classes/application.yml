@@ -1,0 +1,13 @@
+#项目启动端口
+server.port: 8181
+#自定义属性
+user: 
+  username: admin
+  password: 123456
+#Token定义
+token: 
+  sha: token
+  subject: subject
+  expires: 7200
+  header: tokenService
+  name: token
